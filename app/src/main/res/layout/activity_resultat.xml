@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/black_overlay"
+    tools:context="com.example.aymen.projet.Resultat">
+    <LinearLayout
+        android:background="@color/black_overlay"
+        android:padding="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="185dp"
+        android:layout_weight="0.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/i"
+                android:layout_width="200.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="2.0dip"
+                android:src="@drawable/main" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff2c0000"
+                android:gravity="left"
+                android:id="@+id/textView8"
+                android:background="@color/black_overlay"
+                android:paddingLeft="27.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:text="Image Originale" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="2.0dip"
+                android:src="@drawable/main" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff2c0000"
+                android:gravity="left"
+                android:id="@+id/TextView01"
+                android:background="@color/black_overlay"
+                android:layout_width="134dp"
+                android:layout_height="30dip"
+                android:text="Image Filtrée"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/black_overlay"
+        android:padding="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="185dp"
+        android:layout_weight="0.0">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200.0dip"
+                android:layout_height="150dip"
+                android:layout_margin="2.0dip"
+                android:src="@drawable/main" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff2c0000"
+                android:gravity="left"
+                android:id="@+id/textView9"
+                android:background="@color/black_overlay"
+                android:paddingLeft="27.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:text="Segmentation" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200.0dip"
+                android:layout_height="150dip"
+                android:layout_margin="2.0dip"
+                android:src="@drawable/main" />
+
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff2c0000"
+                android:gravity="left"
+                android:id="@+id/TextView03"
+                android:background="@color/black_overlay"
+                android:layout_width="78dp"
+                android:layout_height="30dip"
+                android:layout_gravity="center_horizontal"
+                android:text="Contour"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/black_overlay"
+        android:padding="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="85dp">
+
+        <TextView
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="left"
+            android:id="@+id/t"
+            android:textStyle="italic"
+            android:paddingLeft="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:background="@color/black_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_weight="0.71">
+        <Button
+            android:id="@+id/retour"
+            android:text="cas similaires"
+            style="@style/ButtonStyle"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/su"
+            android:drawableStart="@drawable/su"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

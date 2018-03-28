@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MelanomaDetector</string>
+    <string name="appAboutText"> Cette application a ete cree dans le cadre d\'un projet de fin d\'etude au sein de la faculte des science de monastir.
+ Les resultats ne sont pas decisifs et vous ne pouvez pas compter sur eux. Vous devez consulter un medecin pour
+des resultats precises.</string>
+    <string name="text">Le melanome est un cancer de la peau.c\'est  est un cancer lie a la degenerescence d\'une cellule de la peau (le melanocyte) en cellule cancereuse.
+Le melanome affecte tous les ages (avec un pic entre 40 et 50 ans), mais est exceptionnel avant la puberte.
+Il apparait essentiellement sur la peau mais il peut egalement apparaitre sur l\'oeil ainsi que sur les muqueuses. Source:
+
+         </string>
+    <string name="help11Description">1.appuie sur Lancer le test.</string>
+    <string name="help11Description1">2. choisir la source : soit galerie soit camera.</string>
+    <string name="help11Description2">3.valider la photo choisie .</string>
+    <string name="t">Association Melanome Sans Angoisse.</string>
+</resources>

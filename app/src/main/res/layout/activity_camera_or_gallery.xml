@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/black_overlay"
+
+    tools:context="com.example.aymen.projet.CameraOrGallery">
+    <LinearLayout
+        android:background="@color/black_overlay"
+        android:padding="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="309dp"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:src="@drawable/x"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/gallery"
+        android:text="Gallery"
+        android:drawableLeft="@drawable/g"
+        android:drawableStart="@drawable/g"
+        style="@style/ButtonStyle"
+        android:textSize="30dp"
+        android:layout_above="@+id/camera"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/camera"
+        android:text="Camera"
+        android:drawableLeft="@drawable/c"
+        android:drawableStart="@drawable/c"
+        style="@style/ButtonStyle"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/gallery"
+        android:layout_marginBottom="54dp" />
+</RelativeLayout>
